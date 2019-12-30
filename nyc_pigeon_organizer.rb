@@ -7,9 +7,8 @@ def nyc_pigeon_organizer(data)
           :color => [],
           :gender => [],
           :lives => []
-        } 
-      end
-      if pigeon_list[name] == nil
+        }
+        if pigeon_list[name] == nil
         pigeon_list[name] = {}
       end
       if pigeon_list[name][key] == nil
