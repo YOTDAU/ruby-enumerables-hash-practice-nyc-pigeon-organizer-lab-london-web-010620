@@ -10,7 +10,9 @@ def nyc_pigeon_organizer(data)
         }
       end
     end
+    pigeon_list[name][key].push(info.to_s)
   end
+  pigeon_list
+end
+
   
-  data[:color].each do |color, name|
-    name.each do 
