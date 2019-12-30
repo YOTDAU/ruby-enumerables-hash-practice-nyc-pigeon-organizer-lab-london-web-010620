@@ -3,6 +3,8 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |info, array|
       array.each do |name|
-        pigeon_data = 
+        pigeon_data[name] = {
+          :color
+        } 
 end
 
